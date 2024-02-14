@@ -38,7 +38,7 @@ function createStar() {
     ;
 
     //por si queremos que se elimine las "estrellitas" al final de la animacion
-    // star.addEventListener('animationend', () => {
-    //     star.remove();
-    // });
+     star.addEventListener('animationend', () => {
+     star.remove();
+    });
 }

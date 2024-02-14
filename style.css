@@ -6,25 +6,45 @@
 h1 {
     color: rgb(61, 61, 139);
     text-align: center;
-    font-family: "franklin_gothic_condensed" ;
+    font-family: "Carrois Gothic", sans-serif;
+    font-size: 72px;
+    margin-top: 0;
 }
 
 h2 {
     text-decoration: underline;
     color : rgb(5, 41, 121);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Carrois Gothic", sans-serif;
 }
 
 .background {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
+}
+
+ul{
+    text-align: center;
+    padding: 0;
+    display: block;
 }
 
 li {
     color: white;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Carrois Gothic", sans-serif;
+}
+
+ol{
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
 }
 
 body{
-    overflow: hidden;
     margin: 0;
+    height: auto;
 }
 
 button {
@@ -38,6 +58,7 @@ button {
     font-weight: bold; 
     cursor: pointer;
     z-index: 2;
+
 }
 
 button:hover {
@@ -50,7 +71,7 @@ button:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 200%;
     overflow: hidden;
     z-index: -1;
 }
@@ -84,8 +105,17 @@ nav{
 }
 
 .uwu{
-    width: 400px;
-    height: 240px;
+    width: 100%;
+    display :block;
+    z-index:-5; 
+    position: relative;
+}
+
+.personaUwu{
+    width: 100%;
+    display :block;
+    z-index: 5; 
+    position: absolute;
 }
 
 .mainNavigation a{
@@ -95,6 +125,7 @@ nav{
     background-color: white;
     padding: 10px;
     border: 2px solid black;
+    font-family: "Carrois Gothic", sans-serif ;
 }
 
 .mainNavigation a:hover{
@@ -104,5 +135,28 @@ nav{
 }
 
     
+footer{
+    background-color: rgb(50, 3, 94);
+    text-align: center;
+    padding: 5px;
+    
+}
 
+.album{
+    width: 100%;
+    height: 32%;
+}
 
+.landingPage{
+    display: flex;
+}
+
+.context{
+    width: 80%;
+
+}
+
+.rightBar{
+    width: 20%;
+    display: block;
+}
