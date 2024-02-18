@@ -30,8 +30,8 @@ function createStar() {
 
     star.animate([{opacity: 1}, {opacity: 0}], 
         {duration: 2000, 
-        easing: 'ease-out',
-        fill: 'forwards'
+        //easing: 'ease-out',
+        //fill: 'forwards'
 
         })
     
